@@ -17,6 +17,11 @@
             "email": "taylor@laravel.com"
         }
     ],
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
     "autoload": {
         "psr-4": {
             "Laravel\\Homestead\\": "src/"
